@@ -84,6 +84,6 @@ public class SimpleLock extends AbstractQueuedSynchronizer {
     lock.unlock();
     TimeUnit.SECONDS.sleep(2);
     Thread thread = threadList.get(0);
-    thread.interrupt();
+//    thread.interrupt();
   }
 }
